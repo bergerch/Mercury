@@ -429,8 +429,6 @@ public class ServerConnection {
 							closeSocket();
 							waitAndConnect();
 						}
-					} catch (Exception ex) {
-						logger.info("Processing message failed. Ignoring!");
 					}
 				} else {
 					waitAndConnect();
